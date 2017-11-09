@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            p{
+            background-color: lightblue;
+            }
+            #canvo{
+
+            position: relative;
+            background: lightyellow;
+    }
+        </style>
+
+        <canvas id ="canvo">
+            </canvas>
+        <script>
+
+            //document.getElementById("button").addEventListener('click', function () {
+
+
+        </script>
+        <p id="display"></p>
+        <div ng-app="calculator" ng-controller="numberButtons">
+            <button onclick="o1()">1</button>
+            <button onclick="o2()">2</button>
+            <button onclick="o3()">3</button>
+            <button onclick="opp_div()">÷</button>
+            <br>
+        <button onclick="o4()">4</button>
+        <button onclick="o5()">5</button>
+        <button onclick="o6()">6</button>
+        <button onclick="opp_mul()">*</button>
+        <br>
+        <button onclick="o7()">7</button>
+        <button onclick="o8()">8</button>
+        <button onclick="o9()">9</button>
+        <button onclick="opp_sub()">−</button>
+        <br>
+        <button onclick="o0()">0</button>
+        <button onclick="oDecimal()">.</button>
+        <button onclick="opp_equals()">=</button>
+        <button onclick="opp_add()">+</button>
+        <br><br>
+        <button onclick="oClear()">Clear</button>
+
+
+        <p>     </p>
+
+
+        <p id="output1"></p>
+        <p id="opp_sign"></p>
+        <p id="output2"></p>
+
+        </div>
+
+        <script src="clothilda.js">
+
+               </script>
+
+    </body>
+</html>
